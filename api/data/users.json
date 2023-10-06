@@ -1,0 +1,99 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Ben Brown",
+      "picture_url": "https://images.unsplash.com/photo-1529111290557-82f6d5c6cf85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1986&q=80",
+      "email": "ben@gmail.com",
+      "password": "test1",
+      "admin": true,
+      "plant_id": [
+        227114,
+        109482
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "picture_url": "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "email": "Shanna@melissa.tv",
+      "password": "test2",
+      "admin": false,
+      "plant_id": []
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "picture_url": "https://images.pexels.com/photos/4006576/pexels-photo-4006576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "email": "Nathan@yesenia.net",
+      "password": "test3",
+      "admin": false,
+      "plant_id": [
+        109482,
+        208738,
+        262017
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Patricia Lebsack",
+      "picture_url": "https://images.unsplash.com/photo-1577806934037-32d94e326e84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80",
+      "email": "Julianne.OConner@kory.org",
+      "password": "test4",
+      "admin": false,
+      "plant_id": [
+        262017,
+        109482
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Chad Dietrich",
+      "picture_url": "https://images.unsplash.com/photo-1504257432389-52343af06ae3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+      "email": "Lucio_Hettinger@annie.ca",
+      "password": "test5",
+      "admin": false,
+      "plant_id": [
+        262017,
+        109482,
+        208738
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Mrs. Dennis Schulist",
+      "picture_url": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80",
+      "email": "Karley_Dach@jasper.info",
+      "password": "test6",
+      "admin": false,
+      "plant_id": [
+        109482,
+        208738,
+        262017
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Kurtis Weissnat",
+      "picture_url": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+      "email": "Telly.Hoeger@billy.biz",
+      "password": "test7",
+      "admin": false,
+      "plant_id": [
+        227114,
+        109482
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Nicholas Runolfsdottir V",
+      "picture_url": "https://images.unsplash.com/photo-1512663150964-d8f43c899f76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1984&q=80",
+      "email": "Sherwood@rosamond.me",
+      "password": "test8",
+      "admin": false,
+      "plant_id": [
+        227114
+      ]
+    }
+  ]
+}
