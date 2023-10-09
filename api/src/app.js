@@ -20,7 +20,6 @@ const validatePlant = [
   check('year')
     .isInt({ min: 1 })
     .withMessage('Year must be a positive integer'),
-  check('slug').isLength({ min: 1 }).withMessage('Slug is required'),
 ];
 
 const handleValidationErrors = (req, res, next) => {

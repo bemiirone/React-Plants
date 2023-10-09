@@ -3,6 +3,7 @@ import { Plant } from './types';
 import { getPlants, deletePlant } from './plantService';
 import PlantFilter from './PlantFilter';
 import PlantDetail from './PlantDetail';
+import AddPlantModal from './AddPlantModal';
 
 const PlantList: React.FC = () => {
   const [plants, setPlants] = useState<Plant[]>([]);
@@ -44,7 +45,7 @@ const PlantList: React.FC = () => {
   };
 
   const handlePlantDetailCancel = () => {
-    setSelectedPlantDetail(null); // Close the deßtail view
+    setSelectedPlantDetail(null); 
   };
 
   const handleDelete = async (id: number) => {
@@ -52,9 +53,17 @@ const PlantList: React.FC = () => {
     setPlants((prev) => prev.filter((p) => p.id !== id));
   };
 
+  const [isAddModalOpen, setIsAddModalOpen] = useState(false);
+  
+  const handleAddNewPlant = (newPlant: Plant) => {
+    setPlants(prev => [...prev, newPlant]);
+  };  
+
   return (
     <div className='container mx-auto p-6'>
       <h2 className='text-2xl mb-4'>Plant List</h2>
+      <button onClick={() => setIsAddModalOpen(true)} className="bg-green-500 text-white p-2 rounded mb-4">Add New Plant</button>
+      {isAddModalOpen && <AddPlantModal onClose={() => setIsAddModalOpen(false)} onAdd={handleAddNewPlant} />}
       <PlantFilter onFilterChange={handleFilterChange} />
       <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
         {filteredPlants.map((plant) => (
