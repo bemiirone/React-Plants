@@ -37,3 +37,9 @@ The Plant List application is a user-friendly React web application designed for
 
 ## **Conclusion**
 The Plant List application is a testament to the power and flexibility of React combined with TypeScript. With its user-centric features and modern design, it provides an efficient and enjoyable way for users to manage and view their plant collections.
+
+## **Instructions**
+
+- Clone Repo
+- Navigate to the api folder an run `npm install` the run command `npm start`. This will start the api server
+- Navigate back to the root folder and repeat the above steps to start the app.
