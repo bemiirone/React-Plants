@@ -42,3 +42,4 @@ The Plant List application is a testament to the power and flexibility of React 
 - Clone Repo
 - Navigate to the api folder an run `npm install` the run command `npm start`. This will start the api server
 - Navigate back to the root folder and repeat the above steps to start the app.
+- View the app on localhost:400
