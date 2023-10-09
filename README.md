@@ -19,7 +19,7 @@ The Plant List application is a user-friendly React web application designed for
 
 4. **Plant Detail & Editing**
    - By clicking on a plant's name, users can view detailed information in an overlay modal.
-   - This modal allows for inline editing of the plant's properties, except for the image.
+   - This modal allows for inline editing of the plant's properties.
    - Once editing is done, users can either save the changes or cancel to revert back.
 
 5. **Plant Deletion**
