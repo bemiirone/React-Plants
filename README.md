@@ -33,7 +33,6 @@ The Plant List application is a user-friendly React web application designed for
 - For fetching and managing plant data, service functions are defined, abstracting away the data operations.
 - The application is architected around modular components like `PlantFilter` and `PlantDetail`, promoting code reusability and separation of concerns.
 - Tailwind CSS is integrated for styling, offering utility classes that simplify the design process.
-- Error handling and edge cases, such as ensuring that year values are properly managed, have been considered to enhance application robustness.
 
 ## **Conclusion**
 The Plant List application is a testament to the power and flexibility of React combined with TypeScript. With its user-centric features and modern design, it provides an efficient and enjoyable way for users to manage and view their plant collections.
