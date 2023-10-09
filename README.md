@@ -1,46 +1,39 @@
-# Getting Started with Create React App
+# Plant List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **Overview**
+The Plant List application is a user-friendly React web application designed for managing and displaying a collection of plants. Leveraging a modern design backed by Tailwind CSS, the application seamlessly combines aesthetics with functionality. The application is structured around components and is written in TypeScript, ensuring type safety and enhancing the developer experience.
 
-## Available Scripts
+## **Features**
 
-In the project directory, you can run:
+1. **Plant Listing**
+   - The main screen displays a grid of plants, with each entry showing an image, name, family, and year.
+   - The plants are displayed in a responsive grid format, adapting to different screen sizes for optimal user experience.
 
-### `npm start`
+2. **Plant Filtering**
+   - Users can quickly filter plants by name, family, or year using a filter input field.
+   - As users type, the list dynamically updates to reflect the matching results.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. **Plant Detail & Editing**
+   - By clicking on a plant's name, users can view detailed information in an overlay modal.
+   - This modal allows for inline editing of the plant's properties, except for the image.
+   - Once editing is done, users can either save the changes or cancel to revert back.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+4. **Plant Deletion**
+   - Each plant entry comes with a delete button, allowing users to easily remove plants from the list.
 
-### `npm test`
+5. **Responsive Design**
+   - The application uses Tailwind CSS, ensuring a responsive and modern design that adapts to various device screen sizes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. **TypeScript Integration**
+   - The application benefits from TypeScript's type safety, enhancing code reliability and developer experience.
 
-### `npm run build`
+## **Technical Implementation**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- The application uses React hooks extensively, particularly `useState` and `useEffect`, for managing state and side effects respectively.
+- For fetching and managing plant data, service functions are defined, abstracting away the data operations.
+- The application is architected around modular components like `PlantFilter` and `PlantDetail`, promoting code reusability and separation of concerns.
+- Tailwind CSS is integrated for styling, offering utility classes that simplify the design process.
+- Error handling and edge cases, such as ensuring that year values are properly managed, have been considered to enhance application robustness.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## **Conclusion**
+The Plant List application is a testament to the power and flexibility of React combined with TypeScript. With its user-centric features and modern design, it provides an efficient and enjoyable way for users to manage and view their plant collections.
